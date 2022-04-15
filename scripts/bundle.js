@@ -14,7 +14,6 @@ require("esbuild")
     plugins: [svgrPlugin(), cssModulesPlugin()],
     loader: {
         ".js": "jsx",
-        ".css": "css",
     },
     minify: true,
     target: "es2015",
