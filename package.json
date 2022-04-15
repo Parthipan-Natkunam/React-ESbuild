@@ -1,0 +1,23 @@
+{
+  "name": "esbuild_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "chmod +X ./scripts/build.sh && ./scripts/build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/core": "^6.2.1",
+    "css-tree": "^2.1.0",
+    "esbuild": "^0.14.36",
+    "esbuild-css-modules-plugin": "^2.2.15",
+    "esbuild-plugin-svgr": "^1.0.1"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
