@@ -17,7 +17,7 @@ If you are tired of the slow build times of `webpack` and not yet ready to embra
 - SVG imports as React Components
 - Tree shaking
 
-### Bult With
+### Built With
 - esbuild
 - BASH
 - React
