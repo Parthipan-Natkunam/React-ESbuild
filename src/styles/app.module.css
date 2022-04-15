@@ -6,6 +6,7 @@ body {
     rgba(244, 183, 22, 1) 100%
   );
   color: #fefefe;
+  font-family: monospace;
 }
 
 .appContainer {

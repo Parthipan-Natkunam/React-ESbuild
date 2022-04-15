@@ -5,7 +5,7 @@ export default function () {
   return (
     <div className={style.appContainer}>
       <CustomLogo/>
-      <h1>This Works!</h1>
+      <h1>React Quick Build Template</h1>
     </div>
   );
 }
