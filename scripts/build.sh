@@ -16,3 +16,5 @@ jsfile=$(echo $esbuild | tr '\n' '\r' | sed -r "s/^.*(app-.*js).*$/\1/")
 sed -i -r "s/<\/body>/<script src=\".\/$jsfile\"><\/script><\/body>/" dist/index.html
 
 rm dist/index.html-r
+
+echo "Build completed"
